@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="5821passiba.2Fishesand5LoavesofBread" Version="1.0.0.0" Publisher="CN=B84B236C-6BD8-423D-A27A-1B6214A33565" />
+  <Properties>
+    <DisplayName>2 Fishes and 5 Loaves of Bread</DisplayName>
+    <PublisherDisplayName>passiba</PublisherDisplayName>
+    <Logo>images\storelogo2.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Food4Souls" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="JavascriptHTML52FishAnd5LoavesOfBread" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="images\wide_logo.png" ShortName="2 Fishes and 5 Loaves of Bread" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
